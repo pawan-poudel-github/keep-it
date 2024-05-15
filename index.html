@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Keep It</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+</head>
+
+<body>
+    <section>
+        <nav class="navbar">
+            <h2>Keep It</h2>
+        </nav>
+        <div class="container">
+            <!-- add new note  -->
+
+            <div class="take-a-note">
+                <input type="text" name="new-note-title" id="new-note-title" placeholder="Title" autocomplete="off"
+                    spellcheck="false" />
+                <div class="add-more-content">
+                    <div class="images">
+                        <!-- uploaded images here -->
+
+                    </div>
+                    <textarea name="new-note-description" id="new-note-description" rows="5" placeholder="Description"
+                        spellcheck="false"></textarea>
+                    <div class="new-note-footer">
+                        <div class="settings">
+                            <button class="color white" value="#ffffff"></button>
+                            <button class="color yellow" value="#F4B942"></button>
+                            <button class="color blue" value="#3C91E6"></button>
+                            <button class="color green" value="#A2D729"></button>
+                            <button class="color red" value="#F0386B"></button>
+                        </div>
+                        <div class="submit">
+                            <input type="file" name="image" id="image" accept="image/PNG,image/JPEG"
+                                style="display: none" />
+                            <label class="upload-file" for="image" title="add image">&#8673;</label>
+
+                            <button class="submit-btn" title="save mote">&#10004;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="saved-notes">
+                <!-- saved notes goes here -->
+            </div>
+        </div>
+
+
+    </section>
+    <script src="/script.js"></script>
+</body>
+
+</html>
