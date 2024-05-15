@@ -42,13 +42,13 @@ MyNotes is a simple web application that allows users to create, edit, delete, a
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/mynotes-app.git
+   git clone https://github.com/pawan-poudel-github/keep-it.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd mynotes-app
+   cd keep-it
    ```
 
 3. Open the `index.html` file in your web browser to launch the application.
