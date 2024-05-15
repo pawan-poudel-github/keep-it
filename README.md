@@ -55,12 +55,4 @@ MyNotes is a simple web application that allows users to create, edit, delete, a
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please [open an issue](https://github.com/yourusername/mynotes-app/issues) on GitHub.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to customize this README file according to your app's specific features, technologies, and preferences.
+Contributions are welcome! If you have any suggestions, feature requests, or bug reports, you can open a issue.
